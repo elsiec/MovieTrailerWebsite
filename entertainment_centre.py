@@ -3,13 +3,14 @@ import media
 import fresh_tomatoes
 
 # create an object for each movie to be displayed on webpage
+# includes title, storyline, image, and youtube URL
 frozen = media.Movie("Frozen",
                      "A princess saves sister with magical powers",
                      "https://en.wikipedia.org/wiki/Frozen_(2013_film)#/media/File:Frozen_(2013_film)_poster.jpg",
                      "https://www.youtube.com/watch?v=FLzfXQSPBOg")
 
 findingNemo = media.Movie("Finding Nemo",
-                   "Father looks for son",
+                   "A father looks for his son",
                    "https://en.wikipedia.org/wiki/Finding_Nemo#/media/File:Finding_Nemo.jpg",
                    "https://www.youtube.com/watch?v=wZdpNglLbt8")
 
