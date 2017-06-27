@@ -15,7 +15,7 @@ findingNemo = media.Movie("Finding Nemo",
                    "https://www.youtube.com/watch?v=wZdpNglLbt8")
 
 lego = media.Movie("Lego Movie",
-                   "A Child plays with legos",
+                   "Legos try to save their world",
                    "https://en.wikipedia.org/wiki/The_Lego_Movie#/media/File:The_Lego_Movie_poster.jpg",
                    "https://www.youtube.com/watch?v=fZ_JOBCLF-I")
 
