@@ -1,7 +1,7 @@
 # import modules needed
 import webbrowser
 
-# create Movie clas
+# create Movie class
 class Movie():
     
     # function to initialize movie object
