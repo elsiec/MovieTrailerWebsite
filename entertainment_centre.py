@@ -24,13 +24,13 @@ beforeSunrise = media.Movie("Before Sunrise",
                         "https://en.wikipedia.org/wiki/Before_Sunrise#/media/File:Before_Sunrise_poster.jpg",
                         "https://www.youtube.com/watch?v=jGvcbSabADM")
 
-Summer = media.Movie("500 Days of Summer",
+summer = media.Movie("500 Days of Summer",
                         "A man recounts memories of his relationship",
                         "https://en.wikipedia.org/wiki/500_Days_of_Summer#/media/File:Five_hundred_days_of_summer.jpg",
                         "https://www.youtube.com/watch?v=PsD0NpFSADM")
 
 # create a list of the movies
-movies = [frozen, findingNemo, lego, beforeSunrise, Summer]
+movies = [frozen, findingNemo, lego, beforeSunrise, summer]
 
 # display webpage
 fresh_tomatoes.open_movies_page(movies)
