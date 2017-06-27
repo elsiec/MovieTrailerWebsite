@@ -1,4 +1,4 @@
-# MovieTrailerWebsite
+## Movie Trailer Website
 
 Welcome to the Movie Trailer Website project.
 This was a project created for an Udacity course. 
