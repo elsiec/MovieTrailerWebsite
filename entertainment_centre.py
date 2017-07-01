@@ -3,34 +3,40 @@ import media
 import fresh_tomatoes
 
 # create an object for each movie to be displayed on webpage
-# includes title, storyline, image, and youtube URL
 frozen = media.Movie("Frozen",
                      "A princess saves sister with magical powers",
-                     "https://en.wikipedia.org/wiki/Frozen_(2013_film)#/media/File:Frozen_(2013_film)_poster.jpg",
+                     "https://static.posters.cz/image/1300/"
+                     "posters/frost-group-i20838.jpg",
                      "https://www.youtube.com/watch?v=FLzfXQSPBOg")
 
 findingNemo = media.Movie("Finding Nemo",
-                   "A father looks for his son",
-                   "https://en.wikipedia.org/wiki/Finding_Nemo#/media/File:Finding_Nemo.jpg",
-                   "https://www.youtube.com/watch?v=wZdpNglLbt8")
+                          "Father looks for son",
+                          "https://fiu-assets-2-syitaetz61hl2sa."
+                          "stackpathdns.com/static/use-media-"
+                          "items/17/16316/full-900x1300/"
+                          "56702cc2/pva6ds.jpeg?resolution=0",
+                          "https://www.youtube.com/watch?v=wZdpNglLbt8")
 
 lego = media.Movie("Lego Movie",
-                   "Legos try to save their world",
-                   "https://en.wikipedia.org/wiki/The_Lego_Movie#/media/File:The_Lego_Movie_poster.jpg",
+                   "A Child plays with legos",
+                   "https://img.csfd.cz/files/images/user/profile"
+                   "/159/110/159110092_d8e43f.jpg",
                    "https://www.youtube.com/watch?v=fZ_JOBCLF-I")
 
 beforeSunrise = media.Movie("Before Sunrise",
-                        "A man and woman meet on a train",
-                        "https://en.wikipedia.org/wiki/Before_Sunrise#/media/File:Before_Sunrise_poster.jpg",
-                        "https://www.youtube.com/watch?v=jGvcbSabADM")
+                            "A man and woman meet on a train",
+                            "http://img.moviepostershop.com/before-sunrise-"
+                            "movie-poster-1995-1020190611.jpg",
+                            "https://www.youtube.com/watch?v=jGvcbSabADM")
 
-summer = media.Movie("500 Days of Summer",
-                        "A man recounts memories of his relationship",
-                        "https://en.wikipedia.org/wiki/500_Days_of_Summer#/media/File:Five_hundred_days_of_summer.jpg",
-                        "https://www.youtube.com/watch?v=PsD0NpFSADM")
+Summer = media.Movie("500 Days of Summer",
+                     "A man recounts memories of his relationship",
+                     "http://www.impawards.com/2009/posters/"
+                     "five_hundred_days_of_summer_xlg.jpg",
+                     "https://www.youtube.com/watch?v=PsD0NpFSADM")
 
 # create a list of the movies
-movies = [frozen, findingNemo, lego, beforeSunrise, summer]
+movies = [frozen, findingNemo, lego, beforeSunrise, Summer]
 
 # display webpage
 fresh_tomatoes.open_movies_page(movies)
